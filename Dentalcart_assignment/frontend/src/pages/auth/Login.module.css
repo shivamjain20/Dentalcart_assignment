@@ -1,0 +1,58 @@
+.main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 0.1em solid #000;
+	border-radius: 1em;
+	box-shadow: 0 0 5px #535353;
+	padding: 2em;
+	min-width: 20em;
+}
+
+.main div {
+	color: #5300a7;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+.main input {
+	display: block;
+	width: 100%;
+	margin-bottom: 1em;
+	padding: 0.8em;
+	border-radius: 0.5em;
+	outline: none !important;
+	border: 0.1em solid #000;
+}
+
+.main button {
+	padding: 0.8em;
+	border: 0.1em solid #000;
+	border-radius: 0.5em;
+	margin: 1em 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	background-color: #000;
+	color: #fff;
+}
+
+.main button:last-child {
+	background-color: #c95252;
+}
+
+.main button img {
+	width: 1.5em;
+	margin-right: 0.5em;
+}
